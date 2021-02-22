@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+    padding: 10px;
+    margin: 0%;
+
+}
+
+.banner h1 {
+    font-size: 50px;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50 px;
+    margin: 20px;
+
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 10%;
+
+}
+
+.box-1 {
+    font-size: 20px;
+    color: #000;
+    flex-direction: row;
+    background-color: orangered;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.box-2 {
+    font-size: 20px;
+    color: #000;
+    flex-direction: row;
+    background-color: orangered;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.box-3 {
+    font-size: 20px;
+    color: #000;
+    flex-direction: row;
+    background-color: orangered;
+    border-radius: 5%;
+    margin: 10px;
+}
