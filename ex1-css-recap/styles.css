@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+
+    background-color: cornsilk;
+    margin: 5%;
+}
+
+.contin {
+    height: 100vh;
+    background-color: wheat;
+    position: relative;
+
+}
+
+h1 {
+    font-size: 55px;
+    width: 500px;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-20%, -50%);
+
+
+}
+
+h2 {
+    font-size: 20px;
+    width: 500px;
+    position: absolute;
+    left: 48%;
+    top: 60%;
+    transform: translate(-20%, -50%);
+
+
+}
+
+.pr-btn {
+    width: 150px;
+    height: 45px;
+    display: block;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgb(198, 149, 17);
+    position: relative;
+    color: black;
+    left: 45%;
+    top: 70%;
+    transform: translate(-20%, -50%);
+
+
+}
+
+.pr-btn a {
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: solid;
+    color: white;
+    text-align: center;
+    outline: none;
+
+}
+
+.pr-btn:hover {
+    background-color: red;
+    transition: all ease 0.5s;
+}
