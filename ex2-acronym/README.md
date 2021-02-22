@@ -4,7 +4,7 @@ AFK, LOL, ASAP, BTW are examples of acronyms.
 
 *Away From Keyboard*
 
-*Laughing Out Loud*
+*As Soon As Possible*
 
 *As Soon As Possible*
 

@@ -3,52 +3,118 @@
     padding: 0px;
 }
 
-.banner {
-    padding: 10px;
-    margin: 0%;
+
+.product-view h1 {
+    font-size: 75px;
+    margin-top: 1px;
+
+    color: black;
+    margin-left: .5em;
+}
+
+.product-view a {
+    text-decoration: none;
+}
+
+.product-view span {
+    color: gold;
+}
+
+.product-view img {
+    float: left;
+    margin-left: 3em;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
 
 }
 
-.banner h1 {
-    font-size: 50px;
+#backbtn {
+    margin-left: 27em;
+    top: -1.9em;
+    border-radius: 10px;
+    background-color: lightgrey;
+    padding: 10px 20px;
+    font-size: 35px;
+    border: none;
+    position: relative;
 }
 
-.flexbox {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 50 px;
-    margin: 20px;
+#backbtn a {
+    color: white;
+    text-decoration: none;
+}
 
-    text-align: center;
-    line-height: 75px;
+#backbtn:hover {
+    background-color: red;
+}
+
+.product-view p {
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 7em;
+    margin-left: 16em;
+}
+
+.text {
+    margin-right: 7em;
+    margin-left: 10em;
+}
+
+.text h1 {
+    margin-left: 5em;
+    margin-top: -.8em;
+    position: relative;
+    padding-top: 1em;
+}
+
+#buybtn {
+    border-radius: 10px;
+    padding: 15px 40px;
     font-size: 30px;
-    padding: 10%;
+    margin-left: 3em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    background-color: orange;
+    border: none;
+}
+
+#buybtn a {
+    text-decoration: none;
+    color: white;
+}
+
+.another {
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
 
 }
 
-.box-1 {
-    font-size: 20px;
-    color: #000;
-    flex-direction: row;
-    background-color: orangered;
-    border-radius: 5%;
-    margin: 10px;
+.another h3 {
+    margin-left: 2em;
+    text-align: center;
+    font-size: 25px;
 }
 
-.box-2 {
-    font-size: 20px;
-    color: #000;
-    flex-direction: row;
-    background-color: orangered;
-    border-radius: 5%;
-    margin: 10px;
+.box1 {
+    background-color: rgb(211, 108, 108);
+    border-radius: 10px;
+    padding: 25px 10px;
 }
 
-.box-3 {
-    font-size: 20px;
-    color: #000;
-    flex-direction: row;
-    background-color: orangered;
-    border-radius: 5%;
-    margin: 10px;
+.box2 {
+    background-color: rgb(211, 108, 108);
+    ;
+    border-radius: 10px;
+    padding: 25px 10px;
+}
+
+.another h4 {
+    font-size: 15px;
+    background-color: rgb(128, 128, 4);
+    border-radius: 10px;
+    text-align: center;
 }
