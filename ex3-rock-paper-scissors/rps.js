@@ -6,8 +6,8 @@
 // Write the pseudocode
 I think we need to set 2 var one for player and one for the computer 
 we creat a list with play options.
-we need to set as well the rules of the game
-we assaign a random play 
+we need to set rules of the game
+we assaign a random play for the computer.
 we need to set every possible outcome.
 
 
