@@ -14,7 +14,6 @@ and we need to do acronym print with upper case
 */
 
 
-
 var input, list, ancronyms, i;
 
 
@@ -26,4 +25,5 @@ for (var i_index in list) {
   ancronyms += String(i.charAt(0));
 }
 ancronyms = ancronyms.toUpperCase();
-window.alert(ancronyms);
+window.alert(ancronyms); 
+
